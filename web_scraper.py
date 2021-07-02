@@ -5,7 +5,8 @@ import pandas
 
 headers = {'user-agent': 'Mozilla/70.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'}
 
-oyo_url = 'https://www.oyorooms.com/hotels-in-pune/?page='
+city = input("\n Enter the city name \n")
+oyo_url = 'https://www.oyorooms.com/hotels-in-'+city+'/?page='
 page_num_MAX = 6
 scraped_info_list = []
 
